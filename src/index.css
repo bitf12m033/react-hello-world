@@ -24,3 +24,7 @@ html, body, #root, .room {
   background-color: black;
   color: white;
 }
+.custom-div{
+  background-color: blueviolet;
+  color: white;
+}
