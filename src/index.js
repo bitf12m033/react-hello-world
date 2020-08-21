@@ -57,10 +57,6 @@ const Hi = ({ name }) => (
 // it all on one line, and skip the parentheses:
 // const Hi = ({ name }) => <div>Hello  <strong>{name}</strong>!</div>;
 
-function HiFullName(props) {
-  return (
-    <div>Hi {props.firstName} {props.lastName}!</div>
-  );
-}
+
 
 ReactDOM.render(<Hi name="Umer"/>, document.querySelector('#root'));
